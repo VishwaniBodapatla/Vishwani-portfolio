@@ -1,30 +1,71 @@
 [
+   
   {
-    "title": "HTML",
-    "imageSrc": "skills/html.png"
+    "title": "Python",
+    "imageSrc": "skills/Python.png"
   },
   {
-    "title": "CSS",
-    "imageSrc": "skills/css.png"
+    "title": "ScikitLearn",
+    "imageSrc": "skills/ScikitLearn.png"
   },
   {
-    "title": "React",
-    "imageSrc": "skills/react.png"
+    "title": "Tensorflow",
+    "imageSrc": "skills/Tensorflow.png"
   },
   {
-    "title": "Node",
-    "imageSrc": "skills/node.png"
+    "title": "Pytorch",
+    "imageSrc": "skills/Pytorch.png"
   },
   {
-    "title": "GraphQL",
-    "imageSrc": "skills/graphql.png"
+    "title": "SageMaker",
+    "imageSrc": "skills/SageMaker.png"
   },
   {
-    "title": "MongoDB",
-    "imageSrc": "skills/mongodb.png"
+    "title": "Mlflow",
+    "imageSrc": "skills/Mlflow.png"
   },
   {
-    "title": "Figma",
-    "imageSrc": "skills/figma.png"
+    "title": "SQL",
+    "imageSrc": "skills/sqlLogo.png"
+  },
+  {
+    "title": "Apache Spark",
+    "imageSrc": "skills/apacheSpark.png"
+  },
+  {
+    "title": "Kafka",
+    "imageSrc": "skills/kafka.png"
+  },
+  {
+    "title": "Docker",
+    "imageSrc": "skills/docker.png"
+  },
+  {
+    "title": "PySpark",
+    "imageSrc": "skills/pySparkLogo.png"
+  },
+  {
+    "title": "Airflow",
+    "imageSrc": "skills/Airflow.png"
+  },
+  {
+    "title": "AWS Athena",
+    "imageSrc": "skills/awsAthena.png"
+  },
+  {
+    "title": "AWS Glue",
+    "imageSrc": "skills/awsGlueLogo.png"
+  },
+  {
+    "title": "AWS Lambda",
+    "imageSrc": "skills/awsLambda.png"
+  },
+  {
+    "title": "AWS Redshift",
+    "imageSrc": "skills/awsRedshiftLogo.png"
+  },
+  {
+    "title": "LLM",
+    "imageSrc": "skills/LLM.png"
   }
 ]

@@ -1,0 +1,14 @@
+[
+  {
+    "title": "AWS Certified Cloud Practitioner",
+    "imageSrc": "Certifications/AWS_cloud_pract.png",
+    "verificationLink": "https://www.credly.com/badges/aws-cloud-practitioner",
+    "verificationCode": "AWS-CCP-2025-12345"
+  },
+  {
+    "title": "Microsoft Azure Fundamentals",
+    "imageSrc": "https://drive.google.com/thumbnail?id=1u4WFypPFcXmKHIU_iBwxK8MuEZ_Ldcfj&sz=w1000",
+    "verificationLink": "https://learn.microsoft.com/en-us/certifications/azure-fundamentals/",
+    "verificationCode": "AZ-900-67890"
+  }
+]

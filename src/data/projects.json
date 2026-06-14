@@ -1,26 +1,50 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
+    "title": "Real-Time Fraud Detection Pipeline",
+    "imageSrc": "projects/RealTimeStreaming.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "skills": ["XGboost","Mlflow","Minio","Airflow","Kafka","Spark", "Docker"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/VishwaniBodapatla/RealTimeTransactionFraudDetection_ML_DE"
+  },
+   {
+    "title": "ML Hackathon CNN Hydroponics Leaf Disease prediction",
+    "imageSrc": "projects/CNN_Project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["Python", "TensorFlow", "Streamlit","CNN"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/VishwaniBodapatla/ML-Hackathon-CNN-Hydroponics-Leaf-Disease-prediction"
+  },
+   {
+    "title": "Chicago Healthy Schools Certification Prediction",
+    "imageSrc": "projects/ChieacProject.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["Random Forest","Logistic Regression","upport Vector Machine (SVM)", "XGBoost Classifier", "ROC Curves & AUC Scores"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/VishwaniBodapatla/Vishwani-Bodapatla-Chicago-Healthy-Schools-Certification-Prediction"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
+    "title": "Coinbase Docker Airflow Kafka Spark Cassandra Pipeline",
+    "imageSrc": "projects/CoinBase_Kafka_Spark_Airflow_Cassandra.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
+    "skills": ["Airflow","Kafka","Spark", "Docker", "Cassandra"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/VishwaniBodapatla/coinbase-kafka-spark-cassandra-pipeline"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
+    "title": "Crypto Data ETL Pipeline with Apache Airflow, Docker & AWS S3",
+    "imageSrc": "projects/CinGekoETL.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "skills": ["Airflow", "Docker", "AWS s3"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/VishwaniBodapatla/Docker_Airflow_s3_Athena_API-project?tab=readme-ov-file"
+  },
+  {
+    "title": "Organic Grocery store application built with ASP.NET Core and EF Core",
+    "imageSrc": "projects/ASP_NetProj.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["ASP.Net MVC", "c#"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/VishwaniBodapatla/OrganicBasketsV2"
   }
 ]

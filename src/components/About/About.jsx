@@ -8,42 +8,72 @@ export const About = () => {
     <section className={styles.container} id="about">
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
-        <img
-          src={getImageUrl("about/aboutImage.png")}
-          alt="Me sitting with a laptop"
-          className={styles.aboutImage}
-        />
+
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
+            <img src={getImageUrl("about/awsDE.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
+              <h3>AI/ML Engineering</h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
+                Design and develop end-to-end machine learning solutions using supervised and 
+                unsupervised learning for classification, regression, recommendation systems, 
+                personalization, forecasting, anomaly detection, and predictive analytics on large-scale datasets. 
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
+            <img src={getImageUrl("about/bigDataLogo.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
+              <h3>MLOps & Data Engineering</h3>
               <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
+                Build scalable ML platforms and production pipelines using PySpark, Apache Spark, Kafka, 
+                Airflow, AWS SageMaker, MLflow, Docker, Kubernetes, FastAPI, and CI/CD, 
+                enabling reliable model deployment, monitoring, and automation.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
+            <img src={getImageUrl("about/cloudLogo.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
+              <h3>Deep Learning & NLP</h3>
               <p>
-                I have designed multiple landing pages and have created design
-                systems as well
+                Develop deep learning and NLP solutions using Transformers, BERT, GPT, LLaMA, CNNs, RNNs, and LSTMs 
+                for semantic search, text classification, sentiment analysis, information retrieval, 
+                and intelligent automation.
               </p>
             </div>
           </li>
+          {/* <li className={styles.aboutItem}>
+            <img src={getImageUrl("about/backEnd.png")} alt="Server icon" />
+            <div className={styles.aboutItemText}>
+              <h3>Backend Engineer (Data Systems)</h3>
+              <p>
+                Developed RESTful APIs and optimized backend pipelines using Python, 
+                Flask, PySpark, and SQL. Ensured high-performance data retrieval across 
+                distributed systems.
+              </p>
+            </div>
+          </li> */}
+          <li className={styles.aboutItem}>
+            <img src={getImageUrl("about/davLogo.png")} alt="Server icon" />
+            <div className={styles.aboutItemText}>
+              <h3>Generative AI & LLM Applications</h3>
+              <p>
+                Build LLM-powered applications leveraging LangChain, LangGraph, Retrieval-Augmented Generation (RAG), 
+                vector databases, prompt engineering, fine-tuning, agentic workflows, and AI orchestration frameworks 
+                to create scalable and context-aware AI systems.
+              </p>
+            </div>
+          </li>
+          {/* <li className={styles.aboutItem}>
+            <img src={getImageUrl("about/CICD.png")} alt="Server icon" />
+            <div className={styles.aboutItemText}>
+              <h3>CI/CD & DevOps Engineer (for Data)</h3>
+              <p>
+                Automated deployments with Git, Jenkins, and Bash, reducing release cycles by 70%. Implemented data versioning, monitoring, and governance frameworks for compliance (CCAR, Basel III, SOX).
+              </p>
+            </div>
+          </li> */}
         </ul>
       </div>
     </section>
