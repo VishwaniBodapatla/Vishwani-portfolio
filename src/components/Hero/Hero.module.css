@@ -1,16 +1,16 @@
 @import "../../vars.css";
 
+/* ---------------- MAIN LAYOUT ---------------- */
 .container {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 49px;
-  z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
+  z-index: 1;
 }
-
 
 .content {
   display: flex;
@@ -21,19 +21,22 @@
   margin-left: 100px;
 }
 
+/* ---------------- TEXT ---------------- */
 .title {
   font-size: 50px;
   font-weight: 900;
   margin-bottom: 33px;
   font-family: var(--font-roboto);
+  margin-left: 100px;
+
   background: linear-gradient(
     90deg,
     rgba(255, 255, 255, 1) 70%,
     rgba(255, 255, 255, 0) 120%
   );
+
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  margin-left: 100px;
 }
 
 .description {
@@ -42,48 +45,30 @@
   margin-bottom: 52px;
 }
 
-.contactBtn {
-  text-decoration: none;
-  background-color: var(--color-primary);
-  color: var(--color-text);
-  border-radius: 100px;
-  font-size: 20px;
-  font-weight: 500;
-  padding: 17px 26px;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
-  margin-left: 500px;
-}
-
+/* ---------------- HERO IMAGE ---------------- */
 .heroImg {
-  width: 300px;        /* fixed size, adjust as needed */
-  height: 300px;       /* keep equal to width */
-  border-radius: 50%;  /* makes it circular */
-  object-fit: cover;   /* ensures image fills the circle nicely */
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
   z-index: 1;
 
-  /* animation-name: floating; */
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
 
 @keyframes floating {
-  0% {
-    transform: translate(0, 0px);
-  }
-  50% {
-    transform: translate(0, 10px);
-  }
-  100% {
-    transform: translate(0, -0px);
-  }
+  0% { transform: translate(0, 0px); }
+  50% { transform: translate(0, 10px); }
+  100% { transform: translate(0, 0px); }
 }
 
+/* ---------------- BLURS ---------------- */
 .topBlur {
   position: absolute;
   width: 50vw;
   height: 50vw;
-  min-width: 350px;
   min-width: 350px;
   top: -128px;
   left: -10vw;
@@ -97,7 +82,6 @@
   position: absolute;
   width: 70vw;
   height: 50vw;
-  min-width: 350px;
   min-width: 250px;
   top: 246px;
   right: -25vw;
@@ -107,6 +91,113 @@
   z-index: 0;
 }
 
+/* ---------------- SOCIAL ICONS ---------------- */
+.socials {
+  display: flex;
+  gap: 18px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.iconBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--color-text);
+
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.iconBtn:hover {
+  transform: translateY(-3px);
+  background: var(--color-primary);
+  color: white;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+/* IMPORTANT: ensures react-icons renders properly */
+.iconBtn svg {
+  width: 22px;
+  height: 22px;
+}
+
+/* ---------------- EMAIL POPUP ---------------- */
+.emailPopup {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  background: rgba(0, 0, 0, 0.6);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 999;
+}
+
+.emailBox {
+  background: #132a53;
+  padding: 20px 24px;
+  border-radius: 12px;
+
+  min-width: 280px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.emailText {
+  color: white;
+  font-size: 16px;
+  word-break: break-word;
+}
+
+.emailActions {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* COPY BUTTON */
+.copyBtn {
+  flex: 1;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 6px;
+
+  background: var(--color-primary);
+  color: white;
+
+  cursor: pointer;
+}
+
+/* CLOSE BUTTON */
+.closeBtn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+
+  background: #ff4d4d;
+  color: white;
+
+  cursor: pointer;
+}
+
+/* ---------------- MOBILE ---------------- */
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
@@ -114,5 +205,16 @@
 
   .content {
     align-items: center;
+    margin-left: 0;
   }
+}
+
+.socials {
+  display: flex;
+  gap: 18px;
+  margin-top: 10px;
+  align-items: center;
+
+  justify-content: center;  /* ⭐ THIS is the fix */
+  width: 100%;              /* ⭐ ensures centering works */
 }

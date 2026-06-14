@@ -2,13 +2,13 @@
   {
     "title": "AWS Certified Cloud Practitioner",
     "imageSrc": "Certifications/AWS_cloud_pract.png",
-    "verificationLink": "https://www.credly.com/badges/aws-cloud-practitioner",
-    "verificationCode": "AWS-CCP-2025-12345"
+    "verificationLink": "https://cp.certmetrics.com/amazon/en/public/verify/credential",
+    "verificationCode": "XQS45NFJPE4EQDKB"
   },
   {
-    "title": "Microsoft Azure Fundamentals",
-    "imageSrc": "https://drive.google.com/thumbnail?id=1u4WFypPFcXmKHIU_iBwxK8MuEZ_Ldcfj&sz=w1000",
-    "verificationLink": "https://learn.microsoft.com/en-us/certifications/azure-fundamentals/",
-    "verificationCode": "AZ-900-67890"
+    "title": "AWS Certified Data Engineer - Associate",
+    "imageSrc": "Certifications/AWS_de.png",
+    "verificationLink": "https://cp.certmetrics.com/amazon/en/public/verify/credential",
+    "verificationCode": "fd621983d83046f585d6c9e250d4b135"
   }
 ]

@@ -43,17 +43,6 @@ export const About = () => {
               </p>
             </div>
           </li>
-          {/* <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/backEnd.png")} alt="Server icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Backend Engineer (Data Systems)</h3>
-              <p>
-                Developed RESTful APIs and optimized backend pipelines using Python, 
-                Flask, PySpark, and SQL. Ensured high-performance data retrieval across 
-                distributed systems.
-              </p>
-            </div>
-          </li> */}
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/llm.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
@@ -65,15 +54,6 @@ export const About = () => {
               </p>
             </div>
           </li>
-          {/* <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/CICD.png")} alt="Server icon" />
-            <div className={styles.aboutItemText}>
-              <h3>CI/CD & DevOps Engineer (for Data)</h3>
-              <p>
-                Automated deployments with Git, Jenkins, and Bash, reducing release cycles by 70%. Implemented data versioning, monitoring, and governance frameworks for compliance (CCAR, Basel III, SOX).
-              </p>
-            </div>
-          </li> */}
         </ul>
       </div>
     </section>
