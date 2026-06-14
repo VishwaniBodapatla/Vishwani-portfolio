@@ -16,7 +16,8 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Vishwani</h1>
         <p className={styles.description}>
-          AI/ML Engineer specializing in Machine Learning, MLOps, Recommendation Systems, Personalization, Forecasting, Anomaly Detection, NLP, Transformers, LLMs, RAG, LangChain/LangGraph, and scalable data platforms built with PySpark, Kafka, Airflow, and AWS SageMaker.
+          AI/ML Engineer specializing in Machine Learning, MLOps,Fraud Detection,Forecasting, Anomaly Detection,Recommendation Systems, Personalization, 
+           NLP, Transformers, LLMs, RAG, LangChain/LangGraph, and scalable data platforms built with PySpark, Kafka, Airflow, and AWS SageMaker.
         </p>
         <a href="mailto:vishwani@worksemail.com" className={styles.contactBtn}>
           Contact Me

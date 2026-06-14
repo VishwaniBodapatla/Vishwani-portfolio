@@ -11,7 +11,7 @@ export const About = () => {
 
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/awsDE.png")} alt="Cursor icon" />
+            <img src={getImageUrl("about/AI_ML.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
               <h3>AI/ML Engineering</h3>
               <p>
@@ -22,7 +22,7 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/bigDataLogo.png")} alt="Server icon" />
+            <img src={getImageUrl("about/mlops.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
               <h3>MLOps & Data Engineering</h3>
               <p>
@@ -33,7 +33,7 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cloudLogo.png")} alt="Server icon" />
+            <img src={getImageUrl("about/Nlp.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
               <h3>Deep Learning & NLP</h3>
               <p>
@@ -55,7 +55,7 @@ export const About = () => {
             </div>
           </li> */}
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/davLogo.png")} alt="Server icon" />
+            <img src={getImageUrl("about/llm.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
               <h3>Generative AI & LLM Applications</h3>
               <p>
